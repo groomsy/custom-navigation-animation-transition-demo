@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Groomsy Dev. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
-@interface ViewController : UIViewController
+@interface ColorsViewController : UITableViewController
 
 
 @end

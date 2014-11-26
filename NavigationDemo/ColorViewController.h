@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ColorViewController.h
 //  NavigationDemo
 //
 //  Created by Todd Grooms on 11/26/14.
@@ -8,10 +8,8 @@
 
 @import UIKit;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ColorViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, copy) UIColor *backgroundColor;
 
 @end
-

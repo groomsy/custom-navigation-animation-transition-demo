@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		A0DA8BC71A26724200313042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DA8BC61A26724200313042 /* main.m */; };
 		A0DA8BCA1A26724200313042 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DA8BC91A26724200313042 /* AppDelegate.m */; };
-		A0DA8BCD1A26724200313042 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DA8BCC1A26724200313042 /* ViewController.m */; };
+		A0DA8BCD1A26724200313042 /* ColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DA8BCC1A26724200313042 /* ColorsViewController.m */; };
 		A0DA8BD01A26724200313042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DA8BCE1A26724200313042 /* Main.storyboard */; };
 		A0DA8BD21A26724200313042 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0DA8BD11A26724200313042 /* Images.xcassets */; };
 		A0DA8BD51A26724200313042 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DA8BD31A26724200313042 /* LaunchScreen.xib */; };
 		A0DA8BE11A26724200313042 /* NavigationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DA8BE01A26724200313042 /* NavigationDemoTests.m */; };
+		A0DA8BEC1A26740400313042 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DA8BEB1A26740400313042 /* ColorViewController.m */; };
+		A0DA8BEF1A2674F800313042 /* NavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DA8BEE1A2674F800313042 /* NavigationControllerDelegate.m */; };
+		A0DA8BF21A2675AD00313042 /* ColorsToColorAnimatedTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DA8BF11A2675AD00313042 /* ColorsToColorAnimatedTransitioningDelegate.m */; };
+		A0DA8BF51A2675FB00313042 /* ColorToColorsAnimatedTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DA8BF41A2675FB00313042 /* ColorToColorsAnimatedTransitioningDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,22 @@
 		A0DA8BC61A26724200313042 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0DA8BC81A26724200313042 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0DA8BC91A26724200313042 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A0DA8BCB1A26724200313042 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A0DA8BCC1A26724200313042 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0DA8BCB1A26724200313042 /* ColorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorsViewController.h; sourceTree = "<group>"; };
+		A0DA8BCC1A26724200313042 /* ColorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorsViewController.m; sourceTree = "<group>"; };
 		A0DA8BCF1A26724200313042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0DA8BD11A26724200313042 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A0DA8BD41A26724200313042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A0DA8BDA1A26724200313042 /* NavigationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DA8BDF1A26724200313042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0DA8BE01A26724200313042 /* NavigationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationDemoTests.m; sourceTree = "<group>"; };
+		A0DA8BEA1A26740400313042 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		A0DA8BEB1A26740400313042 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		A0DA8BED1A2674F800313042 /* NavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationControllerDelegate.h; sourceTree = "<group>"; };
+		A0DA8BEE1A2674F800313042 /* NavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerDelegate.m; sourceTree = "<group>"; };
+		A0DA8BF01A2675AD00313042 /* ColorsToColorAnimatedTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorsToColorAnimatedTransitioningDelegate.h; sourceTree = "<group>"; };
+		A0DA8BF11A2675AD00313042 /* ColorsToColorAnimatedTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorsToColorAnimatedTransitioningDelegate.m; sourceTree = "<group>"; };
+		A0DA8BF31A2675FB00313042 /* ColorToColorsAnimatedTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorToColorsAnimatedTransitioningDelegate.h; sourceTree = "<group>"; };
+		A0DA8BF41A2675FB00313042 /* ColorToColorsAnimatedTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorToColorsAnimatedTransitioningDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +93,22 @@
 		A0DA8BC31A26724200313042 /* NavigationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A0DA8BD11A26724200313042 /* Images.xcassets */,
+				A0DA8BC41A26724200313042 /* Supporting Files */,
 				A0DA8BC81A26724200313042 /* AppDelegate.h */,
 				A0DA8BC91A26724200313042 /* AppDelegate.m */,
-				A0DA8BCB1A26724200313042 /* ViewController.h */,
-				A0DA8BCC1A26724200313042 /* ViewController.m */,
-				A0DA8BCE1A26724200313042 /* Main.storyboard */,
-				A0DA8BD11A26724200313042 /* Images.xcassets */,
+				A0DA8BF01A2675AD00313042 /* ColorsToColorAnimatedTransitioningDelegate.h */,
+				A0DA8BF11A2675AD00313042 /* ColorsToColorAnimatedTransitioningDelegate.m */,
+				A0DA8BF31A2675FB00313042 /* ColorToColorsAnimatedTransitioningDelegate.h */,
+				A0DA8BF41A2675FB00313042 /* ColorToColorsAnimatedTransitioningDelegate.m */,
+				A0DA8BCB1A26724200313042 /* ColorsViewController.h */,
+				A0DA8BCC1A26724200313042 /* ColorsViewController.m */,
+				A0DA8BEA1A26740400313042 /* ColorViewController.h */,
+				A0DA8BEB1A26740400313042 /* ColorViewController.m */,
 				A0DA8BD31A26724200313042 /* LaunchScreen.xib */,
-				A0DA8BC41A26724200313042 /* Supporting Files */,
+				A0DA8BCE1A26724200313042 /* Main.storyboard */,
+				A0DA8BED1A2674F800313042 /* NavigationControllerDelegate.h */,
+				A0DA8BEE1A2674F800313042 /* NavigationControllerDelegate.m */,
 			);
 			path = NavigationDemo;
 			sourceTree = "<group>";
@@ -219,8 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0DA8BCD1A26724200313042 /* ViewController.m in Sources */,
+				A0DA8BF51A2675FB00313042 /* ColorToColorsAnimatedTransitioningDelegate.m in Sources */,
+				A0DA8BCD1A26724200313042 /* ColorsViewController.m in Sources */,
 				A0DA8BCA1A26724200313042 /* AppDelegate.m in Sources */,
+				A0DA8BEF1A2674F800313042 /* NavigationControllerDelegate.m in Sources */,
+				A0DA8BEC1A26740400313042 /* ColorViewController.m in Sources */,
+				A0DA8BF21A2675AD00313042 /* ColorsToColorAnimatedTransitioningDelegate.m in Sources */,
 				A0DA8BC71A26724200313042 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

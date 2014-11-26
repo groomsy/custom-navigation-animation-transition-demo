@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  NavigationControllerDelegate.h
 //  NavigationDemo
 //
 //  Created by Todd Grooms on 11/26/14.
@@ -8,10 +8,6 @@
 
 @import UIKit;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface NavigationControllerDelegate : NSObject <UINavigationControllerDelegate>
 
 @end
-
